@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+ using namespace std;
+void nForest(int n) {
+    for(int i=0; i<n; i++){
+       for(int j=0; j<n; j++){
+	  cout<<"* ";//give a space otherwise it will show error beacuse there's a space in between each *.
+             }
+        cout<<endl;
+
+    }
+
+}
+
+Output->>>
+
+Sample Input:
+4
+Sample Output:
+* * * *
+* * * *
+* * * *
+* * * *
+
+
+Sample Input:
+3
+Sample Output:
+* * *
+* * *
+* * *
